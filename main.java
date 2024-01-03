@@ -1,0 +1,14 @@
+class Main {
+    public static void main(String[] args) {
+        // System.out.println("Hello world!");
+
+        double[] temp = { 31.2, 32.0, 40.1, 50.0, 21.6 };
+        temp[2] = temp[2] + 5.0;
+
+        // print the last element of the array
+        for (double weathers : temp) {
+            System.out.println(weathers);
+        } // i did this so that i can print the array one by one.
+
+    }
+}
